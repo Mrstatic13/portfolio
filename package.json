@@ -2,41 +2,9 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
-  "dependencies": {
-    "big-integer": "^1.6.51",
-    "bplist-parser": "^0.2.0",
-    "bundle-name": "^3.0.0",
-    "cross-spawn": "^7.0.3",
-    "default-browser": "^4.0.0",
-    "default-browser-id": "^3.0.0",
-    "define-lazy-prop": "^3.0.0",
-    "execa": "^7.1.1",
-    "get-stream": "^6.0.1",
-    "human-signals": "^4.3.1",
-    "is-docker": "^3.0.0",
-    "is-inside-container": "^1.0.0",
-    "is-stream": "^3.0.0",
-    "is-wsl": "^2.2.0",
-    "isexe": "^2.0.0",
-    "merge-stream": "^2.0.0",
-    "mimic-fn": "^4.0.0",
-    "npm-run-path": "^5.1.0",
-    "onetime": "^6.0.0",
-    "open": "^9.1.0",
-    "path-key": "^3.1.1",
-    "run-applescript": "^5.0.0",
-    "shebang-command": "^2.0.0",
-    "shebang-regex": "^3.0.0",
-    "signal-exit": "^3.0.7",
-    "strip-final-newline": "^3.0.0",
-    "titleize": "^3.0.0",
-    "untildify": "^4.0.0",
-    "which": "^2.0.2"
-  },
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ."
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -48,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Mrstatic13/portfolio/issues"
   },
-  "homepage": "https://github.com/Mrstatic13/portfolio#readme"
+  "homepage": "https://github.com/Mrstatic13/portfolio#readme",
+  "devDependencies": {
+    "open-cli": "^7.2.0"
+  }
 }
